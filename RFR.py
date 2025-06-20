@@ -14,7 +14,7 @@ import numpy as np
 # Load the data from CSV
 
 # %%
-data = pd.read_csv(r"C:\Users\karth\Downloads\Project\project\data_smfc_data.csv")
+data = pd.read_csv('data_smfc_data.csv')
 
 # %% [markdown]
 # Convert TIME to datetime and extract features
