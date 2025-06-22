@@ -30,19 +30,27 @@ matplotlib, seaborn - Visualization
 Platform: Jupyter Notebook
 
 Repository Structure
+
+SMFC-Voltage-Prediction/
+│
 ├── data/
-│   └── data_smfc_data  # Raw voltage readings (6-hour interval)
-├── models/
+│   └── data_smfc_data           # Raw voltage readings (6-hour interval)
+│
+├── models/                      # Python scripts for each ML model
 │   ├── RFR.py
 │   ├── ANN.py
 │   ├── LSTM.py
-├── notebooks/
+│
+├── notebooks/                   # Jupyter Notebooks for each ML model
 │   ├── RFR.ipynb
 │   ├── ANN.ipynb
 │   ├── LSTM.ipynb
-├── requirments/
-│   ├──requirements.txt
-├── README.md   # This file
+│
+├── requirements/                # Requirements folder
+│   └── requirements.txt
+│
+├── README.md                    # Project overview (this file!)
+
 
 How to Run
 1️. Clone the repo
