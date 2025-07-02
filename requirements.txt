@@ -13,5 +13,3 @@ seaborn==0.13.2
 
 # Jupyter (if you're running notebooks)
 jupyter==1.0.0
-# Jupyter (if you're running notebooks interactively)
-jupyter==1.0.0
